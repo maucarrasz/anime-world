@@ -136,10 +136,6 @@ a:hover {
   outline: none;
 }
 
-.btn-anchor:hover {
-  text-decoration: none;
-}
-
 .btn {
   width: 100%;
   display: -webkit-box;

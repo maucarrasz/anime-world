@@ -24,13 +24,14 @@
     <section class="register">
       <section class="register__container">
         <h2 tabindex="0">Crear cuenta</h2>
-        <form class="register__container--form">
+        <form class="register__container--form" action="../index.html">
           <input
             aria-label="Nombre"
             class="input-data"
             type="text"
             placeholder="Nombre"
             autocomplete="name"
+            required
           />
           <input
             aria-label="Correo"
@@ -38,6 +39,7 @@
             type="email"
             placeholder="Correo"
             autocomplete="email"
+            required
           />
           <input
             aria-label="Contraseña"
@@ -45,6 +47,7 @@
             type="password"
             placeholder="Contraseña"
             autocomplete="new-password"
+            required
           />
           <input
             aria-label="Verificar contraseña"
@@ -52,10 +55,9 @@
             type="password"
             placeholder="Verificar contraseña"
             autocomplete="new-password"
+            required
           />
-          <a class="btn-anchor" href="../index.html">
-            <button type="button" class="btn">Crear cuenta</button>
-          </a>
+          <button type="submit" class="btn">Crear cuenta</button>
         </form>
         <div class="register__container--login">
           <p>

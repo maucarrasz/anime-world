@@ -24,23 +24,22 @@
     <section class="login">
       <section class="login__container">
         <h2 tabindex="0">Inicia sesión</h2>
-        <form class="login__container--form">
+        <form class="login__container--form" action="../index.html">
           <input
             aria-label="Correo"
             class="input-data"
             type="email"
             placeholder="Correo"
-            autocomplete="email"
+            required
           />
           <input
             aria-label="Contraseña"
             class="input-data"
             type="password"
             placeholder="Contraseña"
+            required
           />
-          <a class="btn-anchor" href="../index.html">
-            <button type="button" class="btn">Iniciar sesión</button>
-          </a>
+          <button type="submit" class="btn">Iniciar sesión</button>
           <div class="minioptions">
             <label for="remember">
               <input
