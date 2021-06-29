@@ -1,0 +1,19 @@
+html {
+  font-size: 55%; /* Original: 62.5%*/
+}
+
+.header__menu ul {
+  padding-top: 10px;
+}
+.header__menu ul li {
+  margin-bottom: 8px;
+}
+
+.input-container {
+  width: 480px;
+  height: 48px;
+}
+.searcher__input {
+  width: 480px;
+  height: 48px;
+}

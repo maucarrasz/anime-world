@@ -1,0 +1,24 @@
+html {
+  font-size: 60%; /* Original: 62.5%*/
+}
+
+.input-container {
+  width: 650px;
+  height: 45px;
+}
+.searcher__input {
+  width: 650px;
+  height: 45px;
+}
+
+/* Footer */
+
+.footer ul {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 10px;
+}
+.footer ul li {
+  margin-bottom: 1rem;
+}
