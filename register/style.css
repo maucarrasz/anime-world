@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#38ef7d),
+    to(#11998e)
+  );
+  background: linear-gradient(to right, #38ef7d, #11998e);
+  font-family: "Mulish", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Mulish", sans-serif;
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+  padding: 10px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.header__logo {
+  width: 220px;
+  margin: 15px 0 0 15px;
+  border-radius: 40px;
+}
+
+/* Section Login */
+/* General Style's */
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+::-webkit-input-placeholder {
+  color: #fff;
+}
+
+:-ms-input-placeholder {
+  color: #fff;
+}
+
+::-ms-input-placeholder {
+  color: #fff;
+}
+
+::placeholder {
+  color: #fff;
+}
+
+.register {
+  min-height: calc(100vh - 200px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0 30px;
+  color: #fff;
+}
+
+.register__container {
+  background-color: rgba(255, 255, 255, 0.05);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  padding: 60px 68px 40px;
+  text-align: left;
+  border: 2px solid #fff;
+  border-radius: 30px;
+  min-height: 700px;
+  width: 430px;
+}
+
+.register__container h2 {
+  margin: 10px 0;
+  font-size: 2.4rem;
+}
+
+.register__container--form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.register__container--form .input-data {
+  height: 50px;
+  border-bottom: 2px solid #fff;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  padding: 0 20px;
+  margin-bottom: 30px;
+  color: #fff;
+  background: transparent;
+  font-size: 1.7rem;
+  outline: none;
+}
+
+.btn-anchor:hover {
+  text-decoration: none;
+}
+
+.btn {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 45px;
+  color: #fff;
+  font-size: 1.7rem;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.3);
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin: 5px 0;
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+  border: 1px solid #fff;
+}
+
+.register__container--login {
+  font-size: 1.5rem;
+}
+
+.register__container--login a {
+  margin-left: 10px;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  list-style: none;
+  padding: 20px;
+}
+
+.footer ul li {
+  font-size: 1.5rem;
+  padding-left: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .header__logo {
+    width: 180px;
+  }
+  .register__container {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #fff;
+    border-radius: 0px;
+    background: transparent;
+    padding: 0;
+  }
+  .register__container h2 {
+    text-align: center;
+  }
+  .footer ul {
+    margin-top: 15px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+  .footer ul li {
+    margin-bottom: 10px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
