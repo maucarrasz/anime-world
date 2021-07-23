@@ -187,6 +187,7 @@ ul:hover {
   width: 200px;
   height: 250px;
   object-fit: cover;
+  overflow: hidden;
 }
 
 .carousel-item .carousel-item__details {
