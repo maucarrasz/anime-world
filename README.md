@@ -28,7 +28,6 @@ Signup
 ## Built With
 - HTML
 - CSS
-- SASS
 
 ## Credits
 - The project was made in a course of [Platzi](https://platzi.com/).
