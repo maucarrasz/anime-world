@@ -2,9 +2,9 @@
 Layout of the fictional streaming web page Anime World.
 
 ## Links
-- [Home]()
-- [Login]()
-- [Sign up]()
+- [Home](https://mauricodev.github.io/anime-world)
+- [Login](https://mauricodev.github.io/anime-world/login.html)
+- [Sign up](https://mauricodev.github.io/anime-world/signup.html)
 
 ## Features
 - Responsive design
